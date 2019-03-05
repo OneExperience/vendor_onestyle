@@ -30,16 +30,16 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Fonts
 PRODUCT_COPY_FILES += \
-    vendor/pixelstyle/fonts/GoogleSans-Regular.ttf:system/fonts/GoogleSans-Regular.ttf \
-    vendor/pixelstyle/fonts/GoogleSans-Medium.ttf:system/fonts/GoogleSans-Medium.ttf \
-    vendor/pixelstyle/fonts/GoogleSans-MediumItalic.ttf:system/fonts/GoogleSans-MediumItalic.ttf \
-    vendor/pixelstyle/fonts/GoogleSans-Italic.ttf:system/fonts/GoogleSans-Italic.ttf \
-    vendor/pixelstyle/fonts/GoogleSans-Bold.ttf:system/fonts/GoogleSans-Bold.ttf \
-    vendor/pixelstyle/fonts/GoogleSans-BoldItalic.ttf:system/fonts/GoogleSans-BoldItalic.ttf
+    vendor/onestyle/fonts/GoogleSans-Regular.ttf:system/fonts/GoogleSans-Regular.ttf \
+    vendor/onestyle/fonts/GoogleSans-Medium.ttf:system/fonts/GoogleSans-Medium.ttf \
+    vendor/onestyle/fonts/GoogleSans-MediumItalic.ttf:system/fonts/GoogleSans-MediumItalic.ttf \
+    vendor/onestyle/fonts/GoogleSans-Italic.ttf:system/fonts/GoogleSans-Italic.ttf \
+    vendor/onestyle/fonts/GoogleSans-Bold.ttf:system/fonts/GoogleSans-Bold.ttf \
+    vendor/onestyle/fonts/GoogleSans-BoldItalic.ttf:system/fonts/GoogleSans-BoldItalic.ttf
 
 # Pixel sysconfig
 PRODUCT_COPY_FILES += \
-    vendor/pixelstyle/etc/sysconfig/pixel_2017.xml:system/etc/sysconfig/pixel_2017.xml
+    vendor/onestyle/etc/sysconfig/pixel_2017.xml:system/etc/sysconfig/pixel_2017.xml
 
 # Set Pixel blue light theme on Gboard
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -47,10 +47,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Include package overlays
 DEVICE_PACKAGE_OVERLAYS += \
-    vendor/pixelstyle/overlay/common/
+    vendor/onestyle/overlay/common/
 
 # GoogleCamera framework
 PRODUCT_PACKAGES += \
     com.google.android.camera.experimental2017
 PRODUCT_COPY_FILES += \
-    vendor/pixelstyle/etc/permissions/com.google.android.camera.experimental2017.xml:system/etc/permissions/com.google.android.camera.experimental2017.xml
+    vendor/onestyle/etc/permissions/com.google.android.camera.experimental2017.xml:system/etc/permissions/com.google.android.camera.experimental2017.xml
