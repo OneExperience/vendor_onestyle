@@ -12,10 +12,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# Prebuilt Packages
-PRODUCT_PACKAGES += \
-    WallpaperPickerGooglePrebuilt
-
 TARGET_MINIMAL_APPS ?= false
 
 ifeq ($(TARGET_MINIMAL_APPS), false)
